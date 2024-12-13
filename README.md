@@ -164,7 +164,7 @@ O objetivo deste projeto é demonstrar habilidades de como criar uma API REST, j
 
    ```
    python -m venv env
-   source env/bin/activate # No Windows: env\Scripts\activate
+   source env/bin/activate # No Windows: .env\Scripts\activate
    ```
 5. Instale as dependências:
 
@@ -182,7 +182,7 @@ O objetivo deste projeto é demonstrar habilidades de como criar uma API REST, j
 7. Execute a aplicação:
 
    ```
-   flask run
+   flask run --host 0.0.0.0 --port 5000
    ```
 
 A aplicação estará disponível em [http://127.0.0.1:5000]().
